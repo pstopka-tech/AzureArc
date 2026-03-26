@@ -4,7 +4,7 @@
 #version: 1.0
 
 param (
-    [string]$SubscriptionId = "36587df5-95ba-428b-8d8f-fd744a1d8b06"
+    [string]$SubscriptionId = "" #put the id of your subscription
 )
 
 $ErrorActionPreference = "Stop"
